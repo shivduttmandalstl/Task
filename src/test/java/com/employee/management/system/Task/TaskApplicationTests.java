@@ -15,6 +15,10 @@ import io.restassured.parsing.Parser;
 @SpringBootTest
 class TaskApplicationTests {
 
+	@Test
+	void contextLoads() {
+	}
+
 //	It will first get token then use this for generation of new Task then verify it with get request
 //	then update Progress then delete the data
 	@Test
